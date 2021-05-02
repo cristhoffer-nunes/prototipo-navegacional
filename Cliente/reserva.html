@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="reset.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="estilo-aluno.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/estilo-aluno.css">
 	<title>Área do Aluno</title>
 </head>
+
 <body class="tela">
 	<header class="header">
 		<ul class="nav nav-tabs">
-		  	<li class="nav-item">
-		    <a class="nav-link" aria-current="page" href="index-aluno.html">Home</a>
-		  	</li>
-		  	<li class="nav-item">
-		    <a class="nav-link" href="renovacao.html">Renovação</a>
-		  	</li>
-		  	<li class="nav-item">
-		  	<a class="nav-link" href="acervo.html">Acervo</a>
-		  	</li>
-		  	<li class="nav-item">
-		    <a class="nav-link active" href="reserva.html">Reserva</a>
-		  	</li>
-		  	<li class="nav-item">
-		    <a class="nav-link" href="contato.html">Contato</a>
-		  	</li>
+			<li class="nav-item">
+				<a class="nav-link" aria-current="page" href="index-aluno.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="renovacao.html">Renovação</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="acervo.html">Acervo</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="reserva.html">Reserva</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contato.html">Contato</a>
+			</li>
 		</ul>
 	</header>
 	<main>
 		<form>
 			<div class="Tobra">
 				<label for="Tobra">Título da obra:</label><br>
-	 			<input type="text" id="Tobra" name="Tobra" value=" Engenharia de software: uma abordagem profssional. 8. ed." required>
-	 		</div>
-	 		<div class="unidade">
-	 			<label>Selecione a unidade: </label><br>
-	 			<select id="unidade" name="unidade" required>
-	 				<option></option>
-	 				<option value="sao miguel">São Miguel</option>
-	 				<option value="tatuape">Tatuapé</option>
-	 				<option value="paulista">Paulista</option>
-	 				<option value="guarulhos">Guarulhos</option>
-	 			</select>
-	 		</div>
-	 		<div class="reservar">
-	 		<button type="submit" class="btn btn-primary btn-sm" onclick="alert('Reserva efetuada com sucesso!')">Reservar</button>
-	 		</div>
+				<input type="text" id="Tobra" name="Tobra"
+					value=" Engenharia de software: uma abordagem profssional. 8. ed." required>
+			</div>
+			<div class="unidade">
+				<label>Selecione a unidade: </label><br>
+				<select id="unidade" name="unidade" required>
+					<option></option>
+					<option value="sao miguel">São Miguel</option>
+					<option value="tatuape">Tatuapé</option>
+					<option value="paulista">Paulista</option>
+					<option value="guarulhos">Guarulhos</option>
+				</select>
+			</div>
+			<div class="reservar">
+				<button type="submit" class="btn btn-primary btn-sm"
+					onclick="alert('Reserva efetuada com sucesso!')">Reservar</button>
+			</div>
 		</form>
 	</main>
 	<footer class="rodape">
 		&copy;Unibrary 2021
 	</footer>
 </body>
+
 </html>
