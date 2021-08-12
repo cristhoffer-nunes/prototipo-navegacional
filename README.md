@@ -7,5 +7,3 @@ Utilize o seguinte o seguinte comando ou clique [aqui](https://github.com/cristh
 ```
 git clone https://github.com/cristhoffer-nunes/prototipo-navegacional.git
   ```
-  
- **ADICIONAR ARQUIVOS DO CLIENTE**
